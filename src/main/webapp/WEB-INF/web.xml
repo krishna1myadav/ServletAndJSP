@@ -11,9 +11,17 @@
     <servlet-name>first</servlet-name>
     <servlet-class>com.project.servlet.FirstServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>second</servlet-name>
+    <servlet-class>com.project.generic.SecondServlet</servlet-class>
+  </servlet>
   
   <servlet-mapping>
     <servlet-name>first</servlet-name>
     <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>second</servlet-name>
+    <url-pattern>/generic</url-pattern>
   </servlet-mapping>
 </web-app>
