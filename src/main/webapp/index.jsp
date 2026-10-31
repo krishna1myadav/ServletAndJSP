@@ -1,5 +1,10 @@
+<!DOCTYPE html>
 <html>
-<body>
-<h2>Hello World!</h2>
-</body>
+    <head>
+        <title>web App</title>
+    </head>
+    <body>
+        <h2>Login Page</h2>
+        <a href="login">Servlet</a>
+    </body>
 </html>
