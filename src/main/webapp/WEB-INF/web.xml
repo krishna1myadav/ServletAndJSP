@@ -7,29 +7,39 @@
 
   <display-name>Web Application</display-name>
 
-  <servlet>
-    <servlet-name>first</servlet-name>
-    <servlet-class>com.project.servlet.FirstServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>second</servlet-name>
-    <servlet-class>com.project.generic.SecondServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>third</servlet-name>
-    <servlet-class>com.project.http.HttpServletMain</servlet-class>
-  </servlet>
+
+    <servlet>
+      <servlet-name>first</servlet-name>
+      <servlet-class>com.project.servlet.FirstServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>second</servlet-name>
+      <servlet-class>com.project.generic.SecondServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>third</servlet-name>
+      <servlet-class>com.project.http.HttpServletMain</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>registration</servlet-name>
+        <servlet-class>com.project.registration.RegistrationServlet</servlet-class>
+    </servlet>
   
-  <servlet-mapping>
-    <servlet-name>first</servlet-name>
-    <url-pattern>/servlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>second</servlet-name>
-    <url-pattern>/generic</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>third</servlet-name>
-    <url-pattern>/httpServlet</url-pattern>
-  </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>first</servlet-name>
+      <url-pattern>/servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>second</servlet-name>
+      <url-pattern>/generic</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>third</servlet-name>
+      <url-pattern>/httpServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>registration</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
 </web-app>
