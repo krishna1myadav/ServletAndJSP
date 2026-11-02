@@ -4,7 +4,7 @@
     <title>Login Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: #f0f1f2">
     <div class="container p-5" >
         <div class="row">
             <div class="col-md-6 offset-md-3">
@@ -22,18 +22,18 @@
                             </div>
                             <div class="form-group">
                                 <label>Enter Password</label>
-                                <input type="text" name="password" class="form-control" >
+                                <input type="password" name="password" class="form-control" >
                             </div>
                             <div class="form-group">
                                 <label>Select Course</label>
-                                <select class="form-control">
-                                    <option>B.Tech</option>
-                                    <option>M.Tech</option>
-                                    <option>BCA</option>
-                                    <option>BBA</option>
-                                    <option>MCA</option>
-                                    <option>BA</option>
-                                    <option>B.Pharma</option>
+                                <select class="form-control" name="course">
+                                    <option value="btech">B.Tech</option>
+                                    <option value="mtech">M.Tech</option>
+                                    <option value="bca">BCA</option>
+                                    <option value="bba">BBA</option>
+                                    <option value="mca">MCA</option>
+                                    <option value="ba">BA</option>
+                                    <option value="bpharma">B.Pharma</option>
                                 </select>
                             </div>
                             <button class="btn btn-primary">Register</button>
