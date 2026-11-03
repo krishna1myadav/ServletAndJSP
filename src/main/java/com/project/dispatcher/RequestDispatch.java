@@ -1,4 +1,4 @@
 package com.project.dispatcher;
 
-public class Requestdispatch {
+public class RequestDispatch {
 }
