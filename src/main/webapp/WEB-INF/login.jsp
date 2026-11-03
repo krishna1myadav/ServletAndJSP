@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-
+<h1>Login Page</h1>
+<form>
+    <label>Enter email Id</label><br>
+    <input type="text" name="email" ><br>
+</form>
 </body>
 </html>
