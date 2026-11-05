@@ -14,11 +14,11 @@
     </servlet>
     <servlet>
       <servlet-name>second</servlet-name>
-      <servlet-class>com.project.generic.SecondServlet</servlet-class>
+      <servlet-class>com.project.servlet.GenericServletThird</servlet-class>
     </servlet>
     <servlet>
       <servlet-name>third</servlet-name>
-      <servlet-class>com.project.http.HttpServletMain</servlet-class>
+      <servlet-class>com.project.servlet.HttpServletSecond</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>registration</servlet-name>
