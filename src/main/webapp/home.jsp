@@ -9,6 +9,7 @@
 </head>
 <body>
 <h1> Home Page! Welcome</h1>
-<a href="signin.jsp">Registration Page</a>
+<a href="signin.jsp">Registration Page</a><br><br>
+<a href="login.jsp">Login Page</a>
 </body>
 </html>

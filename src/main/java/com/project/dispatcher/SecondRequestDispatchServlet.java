@@ -15,5 +15,7 @@ public class SecondRequestDispatchServlet extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
 
+        out.println("<h1>Welcome to home page😂</h1>");
+
     }
 }
