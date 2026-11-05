@@ -10,7 +10,7 @@
         <a href="httpServlet">click on HttpServlet</a><br><br>
 
         <form action="httpServlet" method="post">
-            <button type="submit">Click here and go to post method</button
+            <button type="submit">Click here and go to post method</button>
         </form>
     </body>
 </html>
