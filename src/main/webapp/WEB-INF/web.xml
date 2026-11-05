@@ -14,15 +14,15 @@
     </servlet>
     <servlet>
       <servlet-name>second</servlet-name>
-      <servlet-class>com.project.servlet.GenericServletThird</servlet-class>
+      <servlet-class>com.project.servlet.GenericServletSecond</servlet-class>
     </servlet>
     <servlet>
       <servlet-name>third</servlet-name>
-      <servlet-class>com.project.servlet.HttpServletSecond</servlet-class>
+      <servlet-class>com.project.servlet.HttpServletThird</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>registration</servlet-name>
-        <servlet-class>com.project.registration.RegistrationServlet</servlet-class>
+        <servlet-class>com.project.servlet.RegistrationServlet</servlet-class>
     </servlet>
   
     <servlet-mapping>

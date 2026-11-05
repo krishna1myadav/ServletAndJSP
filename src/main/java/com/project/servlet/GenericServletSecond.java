@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 
-public class GenericServletThird extends GenericServlet {
+public class GenericServletSecond extends GenericServlet {
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
         System.out.println("Generic Servlet was running......");
