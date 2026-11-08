@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>Login Page</h1>
-<form>
+<form action="login" method="post">
     <label>Enter Email id</label> <br> <input type="text" name="email"> <br> <br>
     <label>Enter Password</label> <br> <input type="text" name="password"> <br> <br>
     <button type="submit">Login</button>
