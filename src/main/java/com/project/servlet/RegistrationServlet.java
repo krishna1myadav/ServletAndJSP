@@ -22,5 +22,7 @@ public class RegistrationServlet extends HttpServlet {
         out.println("<h1>Email: " + email + "</h1>");
         out.println("<h1>Password: " + password + "</h1>");
         out.println("<h1>Course: " + course + "</h1>");
+
+
     }
 }

@@ -25,4 +25,19 @@ public class ParAndAttrServlet2 extends HttpServlet {
         PrintWriter out = resp.getWriter();
         out.println("<h1>sum = " + sum +" ,multiply = " +mul + "</h1>");
     }
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int fn = Integer.parseInt(req.getParameter("fn"));
+        int sn = Integer.parseInt(req.getParameter("sn"));
+
+        int sum = (int)req.getAttribute("s");
+
+        int mul = fn*sn;
+
+        resp.setContentType("text/html");
+        PrintWriter out = resp.getWriter();
+        out.println("<h1>sum = " + sum +" ,multiply = " +mul + "</h1>");
+        out.println("<br> <h1> welcome to servlet2 </h1>" + mul);
+    }
 }
