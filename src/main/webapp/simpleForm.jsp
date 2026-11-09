@@ -10,7 +10,7 @@
 <body>
 <h1>Calculator</h1>
 <br> <br>
-<form action="ParAndAttrServlet" method="post">
+<form action="Cookies" method="post">
     <label>Enter 1st number:</label><br> <br>
     <input type="text" name="fn"><br><br>
     <label>Enter 2nd number:</label><br>

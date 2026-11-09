@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 @WebServlet("/ParAndAttrServlet")
 public class ParAndAttriServlet extends HttpServlet {
@@ -22,10 +21,8 @@ public class ParAndAttriServlet extends HttpServlet {
         int sum = fn + sn;
 
         req.setAttribute("s", sum);
-        PrintWriter out  = resp.getWriter();
-        out.println("<br> <a href='ParAndAttrServlet2'>jump on other servlet</a>");
+
         RequestDispatcher rd = req.getRequestDispatcher("/ParAndAttrServlet2");
         rd.forward(req, resp);
-
     }
 }
