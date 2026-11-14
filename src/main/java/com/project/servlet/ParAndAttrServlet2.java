@@ -38,6 +38,5 @@ public class ParAndAttrServlet2 extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
         out.println("<h1>sum = " + sum +" ,multiply = " +mul + "</h1>");
-        out.println("<br> <h1> welcome to servlet2 </h1>" + mul);
     }
 }

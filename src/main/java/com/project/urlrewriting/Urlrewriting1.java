@@ -1,4 +1,4 @@
-package com.project.servlet;
+package com.project.urlrewriting;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -9,18 +9,17 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("servlet1")
-public class Cookies extends HttpServlet {
+@WebServlet("/Urlrewriting1")
+public class Urlrewriting1 extends HttpServlet {
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int fn = Integer.parseInt(req.getParameter("fn"));
-        int sn = Integer.parseInt(req.getParameter("sn"));
 
-        int sum = fn + sn;
+        String name = req.getParameter("nm");
+
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
-        out.println("<h1> wecome to servlet1 , name = " + sum + "</h1");
-
-        out.println("<br> <a href='ParAndAttrServlet2'>jump on other servlet</a>");
+        out.println("<h1> Name: " + name + "</h1>");
+        out.println("<br> <a href='Urlrewriting2?userName='" + name + ">jump on servlet</a>");
     }
 }
