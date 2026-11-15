@@ -60,7 +60,7 @@
 
     
     <welcome-file-list>
-        <welcome-file>urlrewriting.jsp</welcome-file>
+        <welcome-file>hiddenForm.jsp</welcome-file>
     </welcome-file-list>
 
 </web-app>

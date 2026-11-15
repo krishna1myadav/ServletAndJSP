@@ -20,6 +20,6 @@ public class HiddenForm extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
 
-        out.println("<form action='hiddenform2'><input type='text' name='user'><br><button type='submit'>Servlet 2</button></form>");
+        out.println("<form action='hiddenform2'><input type='hidden' name='user' value='"+name+"'><br><button type='submit'>Servlet 2</button></form>");
     }
 }
