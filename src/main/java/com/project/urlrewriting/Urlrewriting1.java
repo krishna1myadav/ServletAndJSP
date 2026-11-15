@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/Urlrewriting1")
+@WebServlet("/urlrewriting1")
 public class Urlrewriting1 extends HttpServlet {
 
     @Override
@@ -20,6 +20,6 @@ public class Urlrewriting1 extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
         out.println("<h1> Name: " + name + "</h1>");
-        out.println("<br> <a href='Urlrewriting2?userName='" + name + ">jump on servlet</a>");
+        out.println("<br> <a href='urlrewriting2?userName=" + name + "'>jump on servlet</a>");
     }
 }

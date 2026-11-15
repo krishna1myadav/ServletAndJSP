@@ -60,7 +60,7 @@
 
     
     <welcome-file-list>
-        <welcome-file>simpleForm.jsp</welcome-file>
+        <welcome-file>urlrewriting.jsp</welcome-file>
     </welcome-file-list>
 
 </web-app>
