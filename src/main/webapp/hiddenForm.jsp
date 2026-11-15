@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<form action="urlrewriting1" method="post">
+<form action="hiddenform1" method="post">
     <input type="text" name="nm" placeholder="Enter name">
     <button type="submit">Submit</button>
 </form>
