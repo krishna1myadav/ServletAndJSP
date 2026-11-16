@@ -60,7 +60,7 @@
 
     
     <welcome-file-list>
-        <welcome-file>hiddenForm.jsp</welcome-file>
+        <welcome-file>httpsession.jsp</welcome-file>
     </welcome-file-list>
 
 </web-app>
